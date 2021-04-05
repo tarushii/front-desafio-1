@@ -5,13 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 body{
-    height: 100%;
-    width: auto;
+    
+    width: 100vw;
     background: #F5F5F5;
     font-family: 'Open Sans', sans-serif;
     color: #545454;
     font-size: 14px;
     line-height: 19px;
+    display: flex;
+    flex-direction: column;
 }
 h1{
     font-weight: bold;
@@ -36,15 +38,38 @@ h2{
 .topo{
     background: #FFFFFF;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.12);
+    display: flex;
+    
+    flex-grow: 1;
+    
 }
 
-menu{
+.meio{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    display: flex;
+    flex-grow: 0.3;
+    flex-direction: column;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    
 }
 .conteudo div{
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.7;
+
+}
+
+.rodape{
+    display: flex;
+    flex-grow: 1;
 }

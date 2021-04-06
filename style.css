@@ -74,8 +74,45 @@ h2{
      
     
 }
+.menu input{
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.7rem;
+    transition:  0.2s ease-in-out;
+    
+}
+.menu input:hover{
+    border: 1px solid #FE0078;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.7rem;
+    transition:  0.2s ease-in-out;
+    
+}
+
+.menu h3 {
+    border-left: 2px solid #FE0078;
+    padding-left: 0.6rem;    
+}
 .menu input,h3, table, div{
     margin-bottom: 1rem;
+}
+.categ{
+    text-decoration: none;
+    color: #545454;    
+    max-width: 1rem;
+    
+}
+.categ:hover{
+    border-bottom: 2px dashed #FE0078;
+    color: #FE0078;
+}
+span{
+    
+    
 }
 
 .ads {
@@ -114,16 +151,11 @@ h2{
     width: 100%;
     margin-bottom: 1rem;
 }
-.button{/* trocar pra botao*/
-    text-decoration: none;
-    
-    
-    
-    
+.a{
+    text-decoration: none;    
     display: flex;
     flex-direction: row;
-    align-items: center;
-   
+    align-items: center;   
     text-align: right;
 }
 input[type=button] {

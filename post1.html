@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="posts">
     <div class="topo">
         <div class="nav">
             <img src="assets/logo.svg" alt="">
@@ -24,20 +24,54 @@
                 <h1>Lorem ipsum dolor sit amet</h1>
                 <h5>26/07/2020 às 00:04 - By: Fulano</h5>
                 <img src="assets/pessoa.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime magni doloribus tempora dicta! Unde, ex libero? Iusto mollitia assumenda, officia omnis voluptas ipsa fugiat culpa necessitatibus consequatur! Commodi, delectus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime magni doloribus tempora dicta! Unde, ex libero? Iusto mollitia assumenda, officia omnis voluptas  consequatur! Commodi, delectus!</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam perferendis libero eius, enim facilis mollitia assumenda delectus labore impedit nisi. Officia nostrum exercitationem sint itaque maxime eveniet enim quaerat aliquam.</p>
 
-                <a href="post1.html"><input type="button" value="Continuar lendo"></a>
+                <ul class="main">
+                    <li>Lorem, ipsum dolor sit amet   </li>
+                    <ul>
+                        <li> laudantium eligendi! Eum!</li>
+                        <li>ipsam rem itaque consequatur,</li>
+                        <li>alias neque corporis amet</li>
+                    </ul>
+                    <li>voluptates inventore culpa quaerat odio,</li>
+                    <li>A velit nobis vero ipsa eos</li>
+                    <li>consectetur adipisicing elit.  </li>
+                    <li>ipsa fugiat culpa necessitatibus</li>
+                </ul>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore dolorum tempora dolores, voluptatum sunt, at obcaecati laboriosam qui doloremque, illo quae iure eum. Quod totam sint quas autem maxime officia?</p>
+
+                <p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, cupiditate. Error, quisquam cupiditate quasi soluta nulla ducimus corrupti architecto ipsam laborum qui, sed doloribus? Voluptatibus consectetur blanditiis magni ad dolore?</em></p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eius eum officia. Aperiam quia saepe, non nobis quo, sint, fugiat laboriosam quae beatae architecto odio nihil consectetur sapiente atque magni!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe corporis quis molestias architecto temporibus minus delectus quas iusto, eveniet non omnis aliquam quod maxime! Quibusdam minus officia voluptates voluptatem vel?</p>
             </div>
 
-            <div class="comentarios">
-                <input class="nome" id="textinput" type="text" placeholder="Nome" /> 
-                <input class="email" id="textinput" type="email" placeholder="Numero"/>
-                <textarea class="texto" id="textarea" placeholder="Comentario..."></textarea>
-                <input type="submit" value="Enviar">
+            <div class="form">
+                <div id="comentarios">
+    
+                    <h1>Comentários</h1>
+                
+                    <label for="nome" id="labelNome">Nome</label>
+                    <input class="name" id="nome" type="text"required/> 
+                    <label for="email" id="labelEmail">Email</label> 
+                    <input class="email" id="email" type="email" required/> 
+                
+                    <label for="textarea" id="labelComentario">Comentário</label>
+                    <textarea class="texto" id="textarea" placeholder="" required></textarea>
+                    
+                    <button type="submit" value="Enviar" id="button">Comentar</button>
+            
+            
+                </div>
             </div>
+    
 
         </div>
+
+
 
         <div class="menu">
             <form action="https://www.google.com/search" method="GET" target="_blank">
@@ -80,8 +114,10 @@
                 <div class="ads"><p>340 x 240</p></div>
             </div>
         </div>
+        
 
     </div>
+
 
     <div class="rodape">
         <p><strong>Copyright</strong> ©2021 Todos os direitos reservados | by Tarcisio Wesley</p>
